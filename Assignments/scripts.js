@@ -40,23 +40,17 @@ console.log("Data type of mixedValue:", typeof mixedValue);
 const num1 = 10;
 const num2 = 5;
 
-const sum = num1 + num2;
-console.log("Addition:", sum);
+console.log("Addition:", num1 + num2);
 
-const difference = num1 - num2;
-console.log("Subtraction:", difference);
+console.log("Subtraction:", num1 - num2);
 
-const product = num1 * num2;
-console.log("Multiplication:", product);
+console.log("Multiplication:",  num1 * num2);
 
-const quotient = num1 / num2;
-console.log("Division:", quotient);
+console.log("Division:", num1 / num2);
 
-const remainder = num1 % num2;
-console.log("Modulus:", remainder);
+console.log("Modulus:", num1 % num2);
 
-const power = num1 ** num2;
-console.log("Exponentiation:", power);
+console.log("Exponentiation:",  num1 ** num2);
 
 // Comparison operators
 const age = 25;
@@ -81,17 +75,11 @@ const isLessThanOrEqual = age <= 25;
 console.log("Less than or equal to:", isLessThanOrEqual);
 
 // Logical operators
-const isAdult = age >= 18;
-const hasDriversLicense = true;
-
-const canDrive = isAdult && hasDriversLicense;
-console.log("AND:", canDrive);
-
-const canVoteOrDrive = isAdult || hasDriversLicense;
-console.log("OR:", canVoteOrDrive);
-
-const isNotAdult = !isAdult;
-console.log("NOT:", isNotAdult);
+const x = false;
+const y = true;
+console.log("AND:", x && y);
+console.log("OR:", x || y);
+console.log("NOT:", !x);
 
 // Ternary operator
 const message = age >= 18 ? "You are an adult." : "You are a minor.";
